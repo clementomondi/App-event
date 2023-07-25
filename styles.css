@@ -1,0 +1,141 @@
+/* Add CSS here */
+.body-container{
+    font-family: 'poppins', sans-serif;
+    background-color:#eeeffc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width:100vw;
+    }
+    .container{
+    background-color:#eeeffc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+    .container-1{
+    border-top-right-radius:0.4em;
+    border-top-left-radius:0.4em;
+    height:195px;
+    width: 35%;
+    background-color:#2cc9db;
+    overflow:scroll;
+    }
+    .container-1::-webkit-scrollbar {
+        display: none;
+    }
+    .container-1{
+      -ms-overflow-style: none;
+      scrollbar-width: none;  
+    }
+    .container-2{
+    height:300px;
+    width: 35%;
+    background-color:white;
+    box-shadow: 0 10px 10px rgb(235, 229, 229);
+    border-bottom-right-radius:0.4em;
+    border-bottom-left-radius:0.4em;
+    overflow:scroll;
+    }
+    .container-2::-webkit-scrollbar {
+        display: none;
+    }
+    .container-2{
+      -ms-overflow-style: none;
+      scrollbar-width: none;  
+    }
+    
+    .icons{
+    display: flex;
+    margin:3px;
+    justify-content: space-between;
+    align-items: center;
+    }
+    .icon{
+    display: flex;
+    margin:2px;
+    justify-content: space-between;
+    align-items: center;
+    }
+    h1{
+    font-size:10px;
+    padding-left:40px;
+    padding-right:65px;
+    }
+    h2{
+    font-size:10px;
+    }
+    .menu{
+    margin:10px;
+    display: flex;
+    justify-content: space-between;
+    }
+    h3{
+    font-size:13px;
+    color:white;
+    align-items:center;
+    display: flex; 
+    justify-content: center;
+    margin-top:-15px;
+    }
+    .image-slider{   
+    height:90px;
+    background-position:center;
+    width:100%;
+    display: flex;
+    margin-top:30px;
+    }
+    .image-1{
+    border-radius: 0.3em;
+    width: 95%;
+    height:80px;
+    margin-left: 5px;
+    }
+    .image-2{
+    border-radius: 0.3em;
+    width: 95%;
+    height:80px;
+    margin-left:6px;
+    }
+    .image-3{
+    border-radius: 0.3em;
+    width: 95%;
+    height:80px;
+    margin-left:6px;
+    }
+    img:hover {
+    box-shadow: -3px 4px 29px -4px rgba(0,0,0,0.61);
+    -webkit-box-shadow: -3px 4px 29px -4px rgba(0,0,0,0.61);
+    -moz-box-shadow: -3px 4px 29px -4px rgba(0,0,0,0.61);
+    }
+    h4{
+    font-size:12px;
+    font-weight:600;
+    }
+    .content{
+    margin:10px;
+    display: flex;
+    justify-content: space-between;
+    }
+    p{
+    font-size:8px;
+    color: gray;
+    }
+    .auction{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .image-4{
+    height: 110px;
+    width:95%;
+    border-radius:0.3em;
+    }
+    .image-5{
+    height: 110px;
+    width:95%;
+    border-radius:0.3em;
+    }
+    
